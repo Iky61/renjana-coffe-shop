@@ -178,6 +178,33 @@ body {
   line-height: 1.4rem;
 }
 
+/* Menu Section */
+.row-2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.menu-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.menu-card-img{
+  border-radius: 100%;
+  width: 15rem;
+}
+
+
+
+
+
+
+
+
 /* Media Queries */
 /* Laptop */
 @media (max-width: 1366px) {
