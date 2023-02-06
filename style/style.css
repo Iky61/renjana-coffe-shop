@@ -202,6 +202,7 @@ html {
   width: 100%;
   background-color: rgba(113, 131, 111, 0.4);
   letter-spacing: 4px;
+  font-size: 0.8rem;
 }
 
 .row-menu {
