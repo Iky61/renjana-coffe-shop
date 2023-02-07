@@ -1,6 +1,6 @@
 :root {
   --primary: #b6895b;
-  --bg: #DDDCD0;
+  --bg: #dddcd0;
 }
 
 * {
@@ -102,11 +102,7 @@ html {
   width: 100%;
   height: 20%;
   bottom: 0;
-  background: linear-gradient(
-    0deg,
-    var(--bg) 30%,
-    rgba(255, 255, 255, 0) 90%
-  );
+  background: linear-gradient(0deg, var(--bg) 30%, rgba(255, 255, 255, 0) 90%);
 }
 
 .hero .content {
@@ -195,7 +191,7 @@ html {
 }
 
 /* Container - 1 */
-.container-1{
+.container-1 {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -203,7 +199,7 @@ html {
   flex-wrap: wrap;
   gap: 5rem;
   background-color: #1b1b1b;
-  color: #D8D6CB;
+  color: #d8d6cb;
 }
 
 .row-2 .container-1 .menu-kategori-1 {
@@ -213,18 +209,19 @@ html {
   width: 100%;
   letter-spacing: 4px;
   padding-top: 4rem;
+  font-size: 0.9rem;
 }
 
 /* Containr - 2 */
-.container-2{
+.container-2 {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 5rem;
-  background-color: #DDDCD0;
-  color: #1B1B1B;
+  background-color: #dddcd0;
+  color: #1b1b1b;
 }
 
 .row-2 .container-2 .menu-kategori-2 {
@@ -237,7 +234,7 @@ html {
 }
 
 /* Containr - 3 */
-.container-3{
+.container-3 {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -245,7 +242,7 @@ html {
   flex-wrap: wrap;
   gap: 5rem;
   background-color: #1b1b1b;
-  color: #D8D6CB;
+  color: #d8d6cb;
 }
 
 .row-2 .container-3 .menu-kategori-3 {
@@ -258,15 +255,15 @@ html {
 }
 
 /* Containr - 4 */
-.container-4{
+.container-4 {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 5rem;
-  background-color: #DDDCD0;
-  color: #1B1B1B;
+  background-color: #dddcd0;
+  color: #1b1b1b;
 }
 
 .row-2 .container-4 .menu-kategori-4 {
@@ -279,7 +276,7 @@ html {
 }
 
 /* Containr - 5 */
-.container-5{
+.container-5 {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -287,7 +284,7 @@ html {
   flex-wrap: wrap;
   gap: 5rem;
   background-color: #1b1b1b;
-  color: #D8D6CB;
+  color: #d8d6cb;
 }
 
 .row-2 .container-5 .menu-kategori-5 {
@@ -299,7 +296,6 @@ html {
   padding-top: 4rem;
 }
 
-
 .row-menu-1 {
   display: flex;
   flex-wrap: wrap;
@@ -307,11 +303,11 @@ html {
   justify-content: center;
   gap: 5rem;
   padding: 3rem 0;
-  margin-top: -2rem; 
-  font-size: 1.4rem; 
+  margin-top: -2rem;
+  font-size: 1.4rem;
 }
 
-.row-menu-1 h3{
+.row-menu-1 h3 {
   padding-top: 1rem;
 }
 
